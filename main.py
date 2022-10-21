@@ -24,8 +24,6 @@ def print_board(bo):
 player1 = input('Player1\'s name: ')
 player2 = input('\nPlayer2\'s name: ')
 print(f'\nTo play a square write the letter on the left and then the number on top. For example... to play the middle square you have to write the letter on the left most side then the number on the top like the middle square will be b2 like below:')
-# player1_icon = 'O'
-# player2_icon = 'X'
 player_chooser = 0
 print_board(board)
 possible_moves = ['a1', 'a2', 'a3', 'b1', 'b2', 'b3', 'c1', 'c2', 'c3']
